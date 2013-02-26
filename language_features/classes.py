@@ -1,3 +1,8 @@
+"""
+ very simple class with some language features
+ """
+
+
 import random
 
 class Animal(object):

@@ -6,5 +6,5 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 print sum([i for i in range(1000) if i % 3 == 0 or i % 5 == 0])
 
-# nice solution from the forum
+# very nice solution found in the forum
 sum(set(range(0,1000,3))|set(range(0,1000,5)))

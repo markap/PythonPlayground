@@ -1,4 +1,7 @@
+"""
+*args and **kwargs allow you to use lists or key-value-pairs as parameters
 
+"""
 
 
 def sample_fn(*args):

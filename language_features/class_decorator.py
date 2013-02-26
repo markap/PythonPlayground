@@ -1,3 +1,7 @@
+"""
+ a decorator example for a class method and the usage of self
+ """
+
 def title(t):
     def _mydecorator(function):
         def __mydecorator(self, *args, **kw):

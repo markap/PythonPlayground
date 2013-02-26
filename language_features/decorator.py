@@ -1,17 +1,6 @@
-
-
-def foo(function):
-        def __mydecorator(*args, **kw):
-            # do some stuff before the real
-            # function gets called 
-            print args
-            res = function(*args, **kw)
-            print res
-            # do some stuff after
-            return res
-        # returns the sub-function
-        return __mydecorator
-    
+""" 
+ a decorator example to multiply to numbers before executing the decorated function
+ """
     
 def multiply(n, m):
     def _mydecorator(function):

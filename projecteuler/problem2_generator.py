@@ -1,3 +1,7 @@
+""" eulers problem 2 but now with a generator for the fibonacci function
+"""
+
+
 def fib():
     a,b = 0,1
      
@@ -5,6 +9,7 @@ def fib():
         yield a
         a,b = b,a+b  
   
+
 f = fib()  
 l = []     
 while True:
