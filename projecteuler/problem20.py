@@ -1,4 +1,3 @@
-
 """
 n! means n  (n  1)  ...  3  2  1
 
@@ -14,5 +13,5 @@ def factorial(n):
  
 print sum([int(i) for i in str(factorial(100))])
 
-
+""" as one liner """
 print sum([int(i) for i in str(reduce(lambda x, y: x * y, range(1, 100)))])
